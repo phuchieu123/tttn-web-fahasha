@@ -5,9 +5,7 @@
     --text-color:#333;
     --border-color:#dbdbdb;
     --key-blue-color:#2f86eb;
-    --key-green-color:#47d864;
-
- 
+    --key-green-color:#47d864; 
 }
 *{
     box-sizing: inherit;/*kế thừa thẻ chữa nó*/

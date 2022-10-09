@@ -807,40 +807,43 @@ hr{
     width: auto;
 }
 
-.content_sp-buy{
+.idt-content_sp-buy{
     display: flex;
-    height: 44px;
     margin-top: 24px;
 }
 
-.content_bag-btn-buy{
-    border: 1px solid #C92127;;
+.idt-content_sp-buy > button{
+    border-radius: 8px;
+    height: 44px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.idt-content_sp-buy > button > i{
+    margin-right: 8px;
+}
+
+.idt-content-bag-btn-buy{
+    border: 2px solid #C92127;
     text-align: center;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-
+    background-color: #fff;
+    color: #C92127
 }
 
-.content_bag-btn-buy a{
-    text-decoration: none;
-    color: #C92127;;
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-.content_btn-more{
+.idt-buy-now-btn{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #C92127;;
+    background-color: #C92127;
     margin-left: 10px;
-    border-radius: 20px;
-
+    color: #fff;
+    border: initial;
 }
 
 .content_btn-more a{

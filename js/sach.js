@@ -120,7 +120,7 @@ $(document).ready(function(){
         {
           breakpoint: 2230,
           settings: {
-            display:none,
+            display: "none",
           }
         },
           {
@@ -172,6 +172,10 @@ $('.content_list-header-trend').slick({
   variableWidth: true
 });
 
+
+$(function () {
+  $("#header").load("../components/header.html");
+});
 
 
 

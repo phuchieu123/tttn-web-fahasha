@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        function goBackHome () {
+            // console.log(window.location, window.location.pathname, )
+            window.location.href = `${window.location.origin}/index.html`
+        }
+    </script>
 </head>
 <body>
     <header class="header">
@@ -19,8 +25,8 @@
                 <img src="./file/img/rs/fahasa-logo.png" alt="">
             </div>
             <div class="header__navbar-list">
-                <div class="header__navbar-item-logo hide-on-mobie-tablet">
-                    <a href=""><img src="./file/img/fahasa_logo.png" alt="" class="header__navbar-item-img"></a>
+                <div class="header__navbar-item-logo hide-on-mobie-tablet" onclick="goBackHome()">
+                    <img src="./file/img/fahasa_logo.png" alt="" class="header__navbar-item-img">
                 </div>
 
                 <div class="header__navbar-item-menu">
